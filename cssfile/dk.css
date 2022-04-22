@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: px;
+  /* background-color: rgb(172, 119, 119); */
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat&family=Oswald&family=Ubuntu+Mono&display=swap');
+
+body {
+  background-color: rgb(240, 240, 240);
+  /* font-family: "Montserrat", sans-serif; */
+}
+
+#mainSection {
+  display: grid;
+  grid-template-columns: 100%;
+  margin: 50px 10px;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+
+
+.section-header-center {
+    position: relative;
+    padding-bottom: 5px;
+    margin: 20px;
+    /* -webkit-text-fill-color: transparent; */
+  }
+  .section-header-center::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 5px;
+    background: #2196f3;
+    bottom: 0;
+    left: calc(50% - 42px);
+  }
+  .section-header-center h2 {
+    font-size: 46px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* margin-bottom: 10px; */
+    color: rgb(53, 57, 53);
+    font-family: 'Oswald', sans-serif;
+  }
+
+
+.section-header {
+  position: relative;
+  padding-bottom: 8px;
+  margin: 5px 0px;
+  /* margin: 15px 15px 5px 15px; */
+}
+.section-header::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 4px;
+  border-radius: 11px;
+  background: #2196f3;
+  bottom: 0;
+  /* left: calc(50% - 25px); */
+}
+.section-header h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #36454f;
+}
+
+
+
+.AboutProduct {
+  background-color: white;
+  border-radius: 9px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.AboutProduct p {
+  color: rgb(139, 138, 138);
+}
+
+.imgdk {
+  margin: auto;
+  margin-left: 50%;
+  transform: translateX(calc(-50%));
+}
+
+.specification {
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.specification li {
+  color: rgb(139, 138, 138);
+}
+
+.dkvideolinks {
+  background-color: white;
+  border-radius: 9px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  bottom: 0;
+  padding: 3px;
+  width: 100%;
+  background-color: white;
+  margin-top: 30px;
+}
